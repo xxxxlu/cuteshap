@@ -1,11 +1,11 @@
 <template>
   <div class="contact-page">
     <b-container>
-      <h1 class="page-title">Contact Us</h1>
+      <h1 class="page-title product-section-title text-center my-4">Contact Us</h1>
 
       <b-row>
         <b-col lg="6" class="mb-5">
-          <b-card class="h-100">
+          <b-card class="h-100 border-0 shadow-sm">
             <h4 class="mb-4">Send us a message</h4>
             <b-form @submit.prevent="submitForm">
               <b-form-group label="Your Name" label-for="name">
@@ -36,7 +36,7 @@
                 />
               </b-form-group>
 
-              <b-button type="submit" variant="primary" class="mt-3">Send Message</b-button>
+              <b-button type="submit" variant="custom-pink" class="mt-3">Send Message</b-button>
             </b-form>
           </b-card>
         </b-col>
@@ -50,49 +50,35 @@
 
             <div class="d-flex align-items-center mb-3">
               <div class="contact-icon mr-3">
-                <b-icon icon="geo-alt" font-scale="1.5" variant="primary" />
+                <b-icon icon="geo-alt" font-scale="1.5" variant="custom-pink" />
               </div>
               <div>
                 <h5 class="mb-0">Address</h5>
-                <p class="mb-0">Badshahi Complex 6, Lahore, Pakistan</p>
+                <p class="mb-0">Shanghai Pudong New District, China</p>
               </div>
             </div>
 
             <div class="d-flex align-items-center mb-3">
               <div class="contact-icon mr-3">
-                <b-icon icon="envelope" font-scale="1.5" variant="primary" />
+                <b-icon icon="envelope" font-scale="1.5" variant="custom-pink" />
               </div>
               <div>
                 <h5 class="mb-0">Email</h5>
                 <p class="mb-0">
-                  <a href="mailto:info@securityexperts.pk">info@securityexperts.pk</a>
+                  <a href="#">cuteshap@cuteshap.club</a>
                 </p>
               </div>
             </div>
 
             <div class="d-flex align-items-center">
               <div class="contact-icon mr-3">
-                <b-icon icon="clock" font-scale="1.5" variant="primary" />
+                <b-icon icon="clock" font-scale="1.5" variant="custom-pink" />
               </div>
               <div>
                 <h5 class="mb-0">Business Hours</h5>
                 <p class="mb-0">Monday - Saturday: 9:00 AM - 7:00 PM</p>
                 <p class="mb-0">Sunday: Closed</p>
               </div>
-            </div>
-          </b-card>
-
-          <b-card class="mb-4">
-            <h4 class="mb-4">Our Location</h4>
-            <div class="map-responsive">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.5068106476365!2d74.30818711499774!3d31.59396848134383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b0b52563a15%3A0x35cb026d88c82a90!2sBadshahi%20Mosque!5e0!3m2!1sen!2s!4v1625245036267!5m2!1sen!2s"
-                width="100%"
-                height="300"
-                style="border:0;"
-                allowfullscreen=""
-                loading="lazy"
-              ></iframe>
             </div>
           </b-card>
         </b-col>
@@ -145,7 +131,7 @@ export default {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: rgba(21, 83, 142, 0.1);
+  background-color: rgba(255, 94, 148, 0.1);
 }
 
 .map-responsive {
@@ -153,6 +139,7 @@ export default {
   padding-bottom: 0;
   position: relative;
   height: 300px;
+  border-radius: 8px;
 }
 
 .map-responsive iframe {
@@ -161,5 +148,42 @@ export default {
   height: 100%;
   width: 100%;
   position: absolute;
+  border-radius: 8px;
+}
+
+.page-title {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.product-section-title {
+  color: var(--pink-dark);
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.product-section-title:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background-color: var(--pink-primary);
+}
+
+.contact-page {
+  padding: 2rem 0;
+}
+
+h4 {
+  color: var(--pink-dark);
+  font-weight: 600;
+}
+
+.lead {
+  color: var(--text-secondary);
 }
 </style>
