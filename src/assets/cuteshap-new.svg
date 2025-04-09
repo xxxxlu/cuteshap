@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆 -->
+  <circle cx="100" cy="100" r="95" fill="#fce4ec" />
+  
+  <!-- 品牌标志 - 柔美的心形与唇膏结合的图案 -->
+  <path d="M100 55 C130 25, 170 55, 170 90 C170 125, 130 160, 100 140 C70 160, 30 125, 30 90 C30 55, 70 25, 100 55" fill="#ff5e94" />
+  
+  <!-- 唇膏细节 -->
+  <rect x="85" y="90" width="30" height="60" rx="5" fill="#e91e63" />
+  <path d="M85 95 C85 90, 115 90, 115 95 L115 110 C115 115, 85 115, 85 110 Z" fill="#ffb6c1" />
+  
+  <!-- 装饰性的闪光效果 -->
+  <circle cx="70" cy="75" r="7" fill="white" opacity="0.7" />
+  <circle cx="130" cy="75" r="5" fill="white" opacity="0.6" />
+  <circle cx="65" cy="110" r="4" fill="white" opacity="0.5" />
+  <circle cx="135" cy="110" r="3" fill="white" opacity="0.4" />
+  
+  <!-- 可爱的表情 -->
+  <circle cx="85" cy="80" r="3" fill="#333333" />
+  <circle cx="115" cy="80" r="3" fill="#333333" />
+  <path d="M90 90 C95 95, 105 95, 110 90" stroke="#333333" stroke-width="2" stroke-linecap="round" />
+</svg>

@@ -4,7 +4,8 @@
       <b-navbar toggleable="lg" type="dark" variant="custom-pink">
         <b-container>
           <b-navbar-brand to="/">
-             <span class="brand-name">CuteShap</span>
+            <img src="./assets/cuteshap-new.svg" alt="" style="width: 50px; height: 50px">
+            CuteShap
           </b-navbar-brand>
 
           <b-navbar-toggle target="nav-collapse" />
