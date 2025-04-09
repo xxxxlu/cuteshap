@@ -7,7 +7,7 @@
         </div>
         <h1 class="page-title">Order Successful!</h1>
         <div class="success-message my-4">
-          <p>Thank you for shopping with CuteShap. Your order has been placed successfully.</p>
+          <p>Thank you for shopping with CuteShop. Your order has been placed successfully.</p>
           <p>Order confirmation has been sent to your email address.</p>
         </div>
         

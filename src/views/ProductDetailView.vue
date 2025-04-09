@@ -76,7 +76,7 @@
                     <li>Easy to use</li>
                     <li>Travel-friendly</li>
                     <li>Value for money</li>
-                    <li>CuteShap brand</li>
+                    <li>CuteShop brand</li>
                   </ul>
                 </b-card-text>
               </b-tab>

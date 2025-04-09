@@ -13,7 +13,7 @@
       class="full-width-carousel"
     >
       <b-carousel-slide
-        caption="Welcome to CuteShap"
+        caption="Welcome to CuteShop"
         text="Your One-Stop Destination for Premium Beauty Products"
         img-src="https://www.shopaholic.com.pk/cdn/shop/files/Fold_2_8c23f33d-f654-484d-9b66-aa36e7402166.jpg?v=1741933710&width=1000"
       >

@@ -65,7 +65,7 @@
               <div>
                 <h5 class="mb-0">Email</h5>
                 <p class="mb-0">
-                  <a href="#">cuteshap@cuteshap.club</a>
+                  <a href="#">cuteshop@cuteshop.club</a>
                 </p>
               </div>
             </div>

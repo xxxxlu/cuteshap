@@ -5,7 +5,7 @@
         <b-container>
           <b-navbar-brand to="/">
             <img src="./assets/cuteshap-new.svg" alt="" style="width: 50px; height: 50px">
-            CuteShap
+            CuteShop
           </b-navbar-brand>
 
           <b-navbar-toggle target="nav-collapse" />
@@ -60,7 +60,7 @@
           </b-col>
           <b-col md="4">
             <h5 class="footer-heading">Contact Us</h5>
-            <p><b-icon icon="envelope" /> cuteshap@cuteshap.club</p>
+            <p><b-icon icon="envelope" /> cuteshop@cuteshop.club</p>
           </b-col>
         </b-row>
         <hr class="bg-white mt-4">
